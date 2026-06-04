@@ -56,9 +56,9 @@ Acest proiect a fost dezvoltat folosind **PlatformIO** (sau direct prin extensia
 5. Restart ESP: Execută un software reset controlat (esp_restart).
 
 ## 📡 Testare prin Rețea (UDP)
-    După conectarea plăcuței la Wi-Fi, terminalul va afișa adresa IP alocată (ex: 192.168.1.100). Poți folosi un utilitar precum Packet Sender de pe PC sau telefon:
+După conectarea plăcuței la Wi-Fi, terminalul va afișa adresa IP alocată (ex: 192.168.1.100). Poți folosi un utilitar precum Packet Sender de pe PC sau telefon:
 
--Adresa: IP-ul afișat în terminal
--Port: 3333
--Protocol: UDP
--ASCII: 3 (pentru a porni LED-ul, de exemplu)
++Adresa: IP-ul afișat în terminal
++Port: 3333
++Protocol: UDP
++ASCII: 3 (pentru a porni LED-ul, de exemplu)
