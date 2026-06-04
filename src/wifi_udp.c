@@ -11,8 +11,8 @@
 #include "lwip/sockets.h"
 
 // Setari retea  
-#define WIFI_SSID "Liviu's S24 Ultra"
-#define WIFI_PASS "20050706"
+#define WIFI_SSID "Nume_Retea"
+#define WIFI_PASS "Parola_Retea"
 #define UDP_PORT 3333
 
 // Functie prin care ne conectam la wifi 
