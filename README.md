@@ -1,8 +1,14 @@
 # ESP 32 Advanced LED Controller (ESP-IDF & FreeRTOS)
 
-Acest proiect reprezintă un sistem embedded complet dezvoltat pentru microcontrollerele ESP32, folosind framework-ul oficial **ESP-IDF** și sistemul de operare în timp real **FreeRTOS**.
+Acest proiect reprezintă un sistem embedded complet, dezvoltat pentru microcontrolerele ESP32, utilizând framework-ul oficial ESP-IDF și sistemul de operare în timp real FreeRTOS.
 
-Aplicația controlează un LED prin semnale PWM, permițând ajustarea dinamică a parametrilor (Duty Cycle, Frecvență, Moduri de funcționare) prin două interfețe complet independente: un meniu interactiv (CLI) pe portul Serial și o conexiune de rețea prin pachete UDP. Toate preferințele utilizatorului sunt salvate în memoria nevolatilă (NVS) pentru a persista la repornire.
+Aplicația controlează un LED prin semnale PWM, permițând ajustarea dinamică a parametrilor precum duty cycle, frecvență și moduri de funcționare.
+
+Controlul sistemului se realizează prin două interfețe independente:
+- un meniu interactiv (CLI) prin portul Serial
+- o conexiune de rețea bazată pe pachete UDP
+
+Toate preferințele utilizatorului sunt salvate în memoria nevolatilă (NVS), asigurând persistența configurației după repornirea dispozitivului.
 
 ## 🚀 Funcționalități Principale
 
